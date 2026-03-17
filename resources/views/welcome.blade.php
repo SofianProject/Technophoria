@@ -67,8 +67,8 @@
                 Soedirman <span class="text-blue-500">Technophoria</span> 2026
             </h1>
             <p class="text-lg mb-10 text-slate-400 leading-relaxed">
-                "Innovating the Future with AI & Technology" <br> 
-                Ajang kompetisi teknologi tingkat nasional yang diselenggarakan oleh Universitas Jenderal Soedirman.
+                "JUDUL TEMA" <br> 
+                desk tema.
             </p>
             <div class="flex justify-center gap-4">
                 <a href="{{ route('register') }}" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-500 transition shadow-xl shadow-blue-600/20">Mulai Pendaftaran</a>
@@ -82,13 +82,13 @@
             <div class="relative">
                 <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl blur opacity-20"></div>
                 <div class="relative bg-slate-800 h-80 rounded-2xl flex items-center justify-center border border-slate-700 overflow-hidden text-slate-500 italic">
-                    [Dokumentasi S-Tech Tahun Sebelumnya]
+                    [dokumentasi stech taun lalu]
                 </div>
             </div>
             <div>
-                <h2 class="text-3xl font-bold mb-6 text-white">Membangun Ekosistem Digital</h2>
+                <h2 class="text-3xl font-bold mb-6 text-white">TITTLE</h2>
                 <p class="text-slate-400 leading-relaxed mb-6">
-                    Soedirman Technophoria bukan sekadar kompetisi. Kami hadir sebagai platform bagi inovator muda untuk menguji ide, mengasah skill teknis, dan berkolaborasi dalam menciptakan solusi teknologi yang berdampak nyata.
+                    [Placeholder: Masukkan deskripsi singkat tentang kompetisi, visi dan misi, atau highlight dari tahun-tahun sebelumnya. Bagian ini sekarang lebih fokus pada satu informasi utama agar calon peserta lebih paham mengenai esensi dari Soedirman Technophoria.]
                 </p>
                 <div class="flex gap-4">
                     <div class="bg-slate-800 p-4 rounded-lg border border-slate-700 w-1/2">
@@ -117,15 +117,15 @@
                         <ul class="space-y-4 text-slate-400">
                             <li class="flex items-center gap-3">
                                 <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
-                                Pendaftaran: Mar - Apr 2026
+                                Pendaftaran: 7 September - 17 Oktober 2026
                             </li>
                             <li class="flex items-center gap-3">
                                 <span class="w-2 h-2 bg-slate-600 rounded-full"></span>
-                                Penyisihan: Mei 2026
+                                Penyisihan:  18 Oktober - 23 Oktober 2026
                             </li>
                             <li class="flex items-center gap-3">
                                 <span class="w-2 h-2 bg-slate-600 rounded-full"></span>
-                                Grand Final: Juni 2026
+                                Grand Final & Seminar: 7 November 2026
                             </li>
                         </ul>
                     </div>
@@ -168,12 +168,12 @@
             <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
                 <div class="text-left">
                     <h4 class="text-white font-bold mb-2">Kontak Kami</h4>
-                    <p class="text-slate-500 text-sm">Email: technophoria@unsoed.ac.id</p>
-                    <p class="text-slate-500 text-sm">WhatsApp: +62 812-XXXX-XXXX (Panitia)</p>
+                    <p class="text-slate-500 text-sm">Email: soedirmantechnophoria@gmail.com</p>
+                    <p class="text-slate-500 text-sm">WhatsApp: +62 812 3456 7890</p>
                 </div>
                 <div class="flex justify-center items-center gap-8 grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
                     <span class="text-lg font-black italic">HMIF UNSOED</span>
-                    <span class="text-lg font-black italic">DIVISI KEILMUAN</span>
+                    <span class="text-lg font-black italic">DIVISI KEILMUAN & TEKNOLOGI</span>
                 </div>
             </div>
             <div class="border-t border-slate-800 pt-8 text-slate-600 text-sm">
