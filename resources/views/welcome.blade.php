@@ -6,13 +6,13 @@
     <title>Soedirman Technophoria 2026</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="antialiased bg-slate-900 text-slate-200">
+<body class="antialiased bg-gray-950 text-slate-200">
 
-    <nav class="bg-slate-900/80 border-b border-slate-800 sticky top-0 z-50 backdrop-blur-md">
+    <nav class="bg-gray-950/80 border-b border-gray-800 sticky top-0 z-50 backdrop-blur-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             
             <div class="flex items-center w-1/4">
-                <div class="w-10 h-10 bg-slate-800 border border-slate-700 rounded-lg flex items-center justify-center text-xs text-slate-500 italic">
+                <div class="w-10 h-10 bg-gray-900 border border-slate-700 rounded-lg flex items-center justify-center text-xs text-slate-500 italic">
                     [Logo]
                 </div>
             </div>
@@ -72,16 +72,16 @@
             </p>
             <div class="flex justify-center gap-4">
                 <a href="{{ route('register') }}" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-500 transition shadow-xl shadow-blue-600/20">Mulai Pendaftaran</a>
-                <a href="#about" class="bg-slate-800 text-slate-200 px-8 py-3 rounded-lg font-bold hover:bg-slate-700 transition">Pelajari Lebih Lanjut</a>
+                <a href="#about" class="bg-gray-900 text-slate-200 px-8 py-3 rounded-lg font-bold hover:bg-slate-700 transition">Pelajari Lebih Lanjut</a>
             </div>
         </div>
     </header>
 
-    <section id="about" class="py-24 max-w-7xl mx-auto px-4 border-t border-slate-800">
+    <section id="about" class="py-24 max-w-7xl mx-auto px-4 border-t border-gray-800">
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <div class="relative">
                 <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl blur opacity-20"></div>
-                <div class="relative bg-slate-800 h-80 rounded-2xl flex items-center justify-center border border-slate-700 overflow-hidden text-slate-500 italic">
+                <div class="relative bg-gray-900 h-80 rounded-2xl flex items-center justify-center border border-slate-700 overflow-hidden text-slate-500 italic">
                     [dokumentasi stech taun lalu]
                 </div>
             </div>
@@ -91,11 +91,11 @@
                     [Placeholder: Masukkan deskripsi singkat tentang kompetisi, visi dan misi, atau highlight dari tahun-tahun sebelumnya. Bagian ini sekarang lebih fokus pada satu informasi utama agar calon peserta lebih paham mengenai esensi dari Soedirman Technophoria.]
                 </p>
                 <div class="flex gap-4">
-                    <div class="bg-slate-800 p-4 rounded-lg border border-slate-700 w-1/2">
+                    <div class="bg-gray-900 p-4 rounded-lg border border-slate-700 w-1/2">
                         <span class="block text-2xl font-bold text-blue-400">10+</span>
                         <span class="text-sm text-slate-500 uppercase tracking-wider">Universitas</span>
                     </div>
-                    <div class="bg-slate-800 p-4 rounded-lg border border-slate-700 w-1/2">
+                    <div class="bg-gray-900 p-4 rounded-lg border border-slate-700 w-1/2">
                         <span class="block text-2xl font-bold text-blue-400">500+</span>
                         <span class="text-sm text-slate-500 uppercase tracking-wider">Peserta</span>
                     </div>
@@ -104,13 +104,13 @@
         </div>
     </section>
 
-    <section id="detail-lomba" class="bg-slate-800/50 py-24 border-y border-slate-800">
+    <section id="detail-lomba" class="bg-gray-900/50 py-24 border-y border-gray-800">
         <div class="max-w-5xl mx-auto px-4">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-white mb-4">Informasi Kompetisi</h2>
                 <div class="h-1 w-20 bg-blue-600 mx-auto"></div>
             </div>
-            <div class="bg-slate-900 border border-slate-700 rounded-3xl p-8 md:p-12 shadow-2xl">
+            <div class="bg-gray-950 border border-slate-700 rounded-3xl p-8 md:p-12 shadow-2xl">
                 <div class="flex flex-col md:flex-row gap-10">
                     <div class="md:w-1/3">
                         <h3 class="text-2xl font-bold text-blue-400 mb-4">Timeline Utama</h3>
@@ -129,7 +129,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="md:w-2/3 border-l border-slate-800 md:pl-10">
+                    <div class="md:w-2/3 border-l border-gray-800 md:pl-10">
                         <h3 class="text-2xl font-bold text-white mb-4">Deskripsi Kompetisi</h3>
                         <p class="text-slate-400 leading-relaxed mb-6">
                             [Placeholder: Masukkan detail peraturan umum, kriteria penilaian, atau total hadiah di sini. Bagian ini sekarang lebih luas dan fokus pada satu informasi utama agar calon peserta lebih paham mengenai alur perlombaan.]
@@ -146,24 +146,24 @@
         </div>
     </section>
 
-    <section id="sponsor" class="py-20 bg-slate-900">
+    <section id="sponsor" class="py-20 bg-gray-950">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h2 class="text-2xl font-bold text-white mb-12">Didukung Oleh</h2>
             <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-                <div class="h-20 w-40 bg-slate-800 border border-slate-700 rounded-xl flex items-center justify-center text-slate-500 text-sm font-semibold hover:bg-slate-700 transition cursor-pointer">
+                <div class="h-20 w-40 bg-gray-900 border border-slate-700 rounded-xl flex items-center justify-center text-slate-500 text-sm font-semibold hover:bg-slate-700 transition cursor-pointer">
                     [Sponsor Utama]
                 </div>
-                <div class="h-16 w-32 bg-slate-800 border border-slate-700 rounded-xl flex items-center justify-center text-slate-500 text-xs hover:bg-slate-700 transition cursor-pointer">
+                <div class="h-16 w-32 bg-gray-900 border border-slate-700 rounded-xl flex items-center justify-center text-slate-500 text-xs hover:bg-slate-700 transition cursor-pointer">
                     [Sponsor 2]
                 </div>
-                <div class="h-16 w-32 bg-slate-800 border border-slate-700 rounded-xl flex items-center justify-center text-slate-500 text-xs hover:bg-slate-700 transition cursor-pointer">
+                <div class="h-16 w-32 bg-gray-900 border border-slate-700 rounded-xl flex items-center justify-center text-slate-500 text-xs hover:bg-slate-700 transition cursor-pointer">
                     [Media Partner]
                 </div>
             </div>
         </div>
     </section>
 
-    <footer id="footer" class="py-12 text-center border-t border-slate-800 bg-slate-950">
+    <footer id="footer" class="py-12 text-center border-t border-gray-800 bg-slate-950">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
                 <div class="text-left">
@@ -176,7 +176,7 @@
                     <span class="text-lg font-black italic">DIVISI KEILMUAN & TEKNOLOGI</span>
                 </div>
             </div>
-            <div class="border-t border-slate-800 pt-8 text-slate-600 text-sm">
+            <div class="border-t border-gray-800 pt-8 text-slate-600 text-sm">
                 &copy; 2026 Soedirman Technophoria. Build for Informatics Excellence.
             </div>
         </div>

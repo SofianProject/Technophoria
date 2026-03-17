@@ -22,4 +22,9 @@ Route::middleware('auth')->group(function () {
     Route::post('/teams/store', [TeamController::class, 'store'])->name('teams.store');
 });
 
+Route::get('/register', function () {
+    return view('register');
+})->name('register');
+
 require __DIR__.'/auth.php';
+
